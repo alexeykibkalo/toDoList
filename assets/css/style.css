@@ -1,0 +1,32 @@
+@import "reset.css";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+h3{
+    text-align: center;
+}
+.toDoListContainer{
+    background-color: antiquewhite;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.taskEnterForm{
+    margin: 10px;
+}
+.taskItem{
+    border: black 1px solid;
+    border-radius: 3px;
+    margin: 10px;
+}
+.completeTask{
+    background-color: gray;
+    text-decoration: line-through;
+    opacity: 50%;
+}
